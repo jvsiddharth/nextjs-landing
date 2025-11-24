@@ -182,7 +182,7 @@ export default function Home() {
         className="relative text-black flex flex-col md:flex-row overflow-hidden min-h-screen"
       >
         {/* Navbar */}
-        <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-10 py-6 text-blue-600 md:text-blue-600 text-white">
+        <header className="absolute top-0 left-0 right-0 z-20 flex text-blue-600 items-center justify-between px-10 py-6">
           <div className="text-xl font-bold bg-gray-200 px-4 py-2 rounded">LOGO</div>
           <nav className="hidden md:flex items-center space-x-10 text-sm font-medium">
             <a href="#" className="flex items-center space-x-1 hover:text-blue-800 transition">
@@ -209,11 +209,11 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full md:w-1/2 px-10 py-20 z-10 flex flex-col justify-center min-h-screen"
         >
-          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
+          <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-black">
             Lorem ipsum dolor<br />sit amet
           </h1>
 
-          <p className="text-gray-600 mt-5 max-w-md leading-relaxed">
+          <p className="text-gray-800 mt-5 max-w-md leading-relaxed">
             Lorem ipsum dolor sit amet consectetur. Enim netus cras congue quis elit
             sociis. Sed mi rhoncus id habitant. In urna tellus nisi platea morbi libero
             imperdiet neque. Justo suspendisse tristique posuere quis eget viverra.
