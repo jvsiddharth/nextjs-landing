@@ -182,7 +182,7 @@ export default function Home() {
         className="relative text-black flex flex-col md:flex-row overflow-hidden min-h-screen"
       >
         {/* Navbar */}
-        <header className="absolute top-0 left-0 right-0 z-20 flex text-blue-600 items-center justify-between px-10 py-6">
+        <header className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-10 py-6 text-blue-600 md:text-blue-600 text-white">
           <div className="text-xl font-bold bg-gray-200 px-4 py-2 rounded">LOGO</div>
           <nav className="hidden md:flex items-center space-x-10 text-sm font-medium">
             <a href="#" className="flex items-center space-x-1 hover:text-blue-800 transition">
